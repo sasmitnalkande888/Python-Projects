@@ -54,6 +54,32 @@ def cmdExit():     #file menu Exit option
     if messagebox.askyesno("Notepad", "Are you sure you want to exit?"):
         root.destroy()
 
+
+
+
+
+
+
+#-------------------------------------------------------------------------------------
+# hey iam participating in HACKTOBER 2021
+# so please merge my pull request.....
+def PRINTFUN():
+    print("-------------------------------------------------")
+    print("-------------------------------------------------")
+    print("HELLO WORLD ")
+    print("THIS IS THE NOTEPAD APP ")
+    print("CREATED IN PYTHON ")
+    print("-------------------------------------------------")
+    print("-------------------------------------------------")
+#-------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
 def cmdCut():     #edit menu Cut option
     notepad.event_generate("<<Cut>>")
 
@@ -119,4 +145,11 @@ notepadMenu.add_cascade(label='Help', menu = helpMenu)
 #adding options in help menu
 helpMenu.add_command(label='About Notepad', command = cmdAbout)
 notepad.pack()
+PRINTFUN()
 root.mainloop()
+
+
+
+
+
+
